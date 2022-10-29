@@ -29,8 +29,16 @@
     gap: 40px;
     padding: 20px;
   }
+
   .header a {
-    background: #f5f5f5;
+    background: #ebb7b7;
     border-radius: 4px;
+  }
+}
+
+@media (max-width: 440px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
   }
 }
