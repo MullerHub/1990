@@ -27,10 +27,6 @@ img {
 .subtitulo {
   font-size: 8rem;
   line-height: 1;
-  background: -webkit-linear-gradient(#ffb8eb, #ed2fb8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
 }
