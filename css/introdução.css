@@ -1,14 +1,15 @@
 .introducao {
   max-width: 1200px;
+  height: 530px;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
+  border-radius: 20px;
+  color: #1b031f;
   background-color: #ebb7b7;
-  width: 985px;
-  height: 535px;
 }
 
 .introducao h1 {
@@ -23,16 +24,25 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url('../img/detalhe.svg') no-repeat center;
   position: absolute;
   top: -15px;
   left: -40px;
+  background: url('../img/detalhe.svg') no-repeat center;
+  /*
+  Detalhes roxos não estão funcionando
+  */
   z-index: -1;
 }
 
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
+}
+
+.introducao img {
+  width: 100%;
+  height: 100%;
+  margin-left: -140px;
 }
 
 @media (max-width: 1000px) {
