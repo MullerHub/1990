@@ -37,9 +37,6 @@
   top: -15px;
   left: -40px;
   background: url('../img/detalhe.svg') no-repeat center;
-  /*
-  Detalhes roxos não estão funcionando
-  */
   z-index: -1;
 }
 .introducao p {
@@ -54,11 +51,6 @@
   font-size: 1.5rem;
 }
 
-.introducao img {
-  width: 100%;
-  height: 100%;
-}
-
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
@@ -67,11 +59,24 @@
 
 @media (max-width: 800px) {
   .introducao {
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
+
+  .introducao .box {
+    max-width: 100%;
+    height: 400px;
+  }
+
   .introducao h1 {
     font-size: 2rem;
+  }
+
+  .introducao img {
+    max-width: 300px;
+    height: auto;
+    display: block;
   }
   .introducao h1::before {
     width: 30px;
