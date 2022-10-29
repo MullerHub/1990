@@ -8,7 +8,12 @@
 }
 
 .experiencia .subtitulo {
-  color: linear-gradient(180deg, red, blue);
+  background-image: linear-gradient(to bottom, #ffb8eb, #ed2fb8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  width: 4ch;
 }
 
 .experiencia-texto {
