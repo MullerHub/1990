@@ -1,5 +1,5 @@
 .introducao {
-  max-width: 1200px;
+  width: 1133px;
   height: 530px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -7,9 +7,17 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
-  border-radius: 20px;
   color: #1b031f;
+}
+
+.box {
   background-color: #ebb7b7;
+  border-radius: 10px;
+  width: 985px;
+  height: 485px;
+  margin: 55px 0 0 139px;
+  z-index: -1;
+  position: absolute;
 }
 
 .introducao h1 {
@@ -17,6 +25,7 @@
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
+  z-index: 100;
 }
 
 .introducao h1::before {
@@ -33,16 +42,21 @@
   */
   z-index: -1;
 }
-
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
 }
 
+.introducao p ::after {
+  position: absolute;
+  background-color: red;
+  z-index: 900;
+  font-size: 1.5rem;
+}
+
 .introducao img {
   width: 100%;
   height: 100%;
-  margin-left: -140px;
 }
 
 @media (max-width: 1000px) {
