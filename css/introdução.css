@@ -10,6 +10,12 @@
   color: #1b031f;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .box {
   background-color: #ebb7b7;
   border-radius: 10px;
@@ -85,11 +91,23 @@
   }
 }
 
+@media (max-width: 700px) {
+  .introducao .img {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 400px) {
   .introducao {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .introducao img {
-    display: none;
+
+  .box {
+    margin: 0px -300px 6px 0px;
+    max-height: 332px;
+  }
+  .introducao .img {
+    max-width: 50%;
   }
 }
