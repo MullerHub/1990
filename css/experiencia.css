@@ -99,7 +99,18 @@
 }
 
 @media (max-width: 800px) {
+  .experiencia {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+  }
   .experiencia .subtitulo {
-    margin-left: 50px;
+    width: 100%;
+  }
+  .experiencia div:nth-child(2) {
+    margin-top: -40px;
+  }
+  .experiencia-texto {
+    padding-bottom: 20px;
   }
 }
