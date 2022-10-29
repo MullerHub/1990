@@ -1,7 +1,7 @@
 .formacao {
   background: #3d0233;
 
-  color: #ffffff;
+  color: #f2cbcb;
 }
 
 .formacao-container {
@@ -40,7 +40,7 @@
 }
 
 .formacao-texto strong {
-  color: #ffffff;
+  color: #f2cbcb;
 }
 
 .faculdade-lista {
@@ -148,8 +148,8 @@
     padding: 60px 20px;
     gap: 40px;
   }
-  .formacao .subtitulo {
-    color: #ffffff;
+  .formacao-mobile {
+    height: 50px;
   }
   .formacao-texto {
     font-size: 1.25rem;
@@ -157,5 +157,15 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+  .faculdade {
+    position: absolute;
+    width: 127px;
+    height: 73px;
+    bottom: 15px;
+    right: 45px;
+  }
+  .faculdade-instituicao {
+    margin: -10px 0 0 -5px;
   }
 }
