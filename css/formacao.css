@@ -168,4 +168,18 @@
   .faculdade-instituicao {
     margin: -10px 0 0 -5px;
   }
+
+  @media (max-width: 400px) {
+    .faculdade {
+      position: initial;
+    }
+
+    .formacao-texto {
+      padding-top: 250px;
+    }
+
+    .formacao-container {
+      padding-bottom: 100px;
+    }
+  }
 }
