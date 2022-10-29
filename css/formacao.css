@@ -142,4 +142,11 @@
   .formacao .subtitulo {
     color: #ffffff;
   }
+  .formacao-texto {
+    font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
 }
