@@ -104,8 +104,7 @@ img {
   }
 
   .box {
-    margin: 0px -300px 6px 0px;
-    max-height: 332px;
+    display: none;
   }
   .introducao .img {
     max-width: 50%;
