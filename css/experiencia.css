@@ -46,7 +46,7 @@
 
 .empresa a:hover,
 :focus {
-  transition: 2s;
+  transition: 0.5s;
   color: #8d02a5;
 }
 
